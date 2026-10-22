@@ -62,6 +62,11 @@ Copie só o que quiser usar:
 
 Depois, reinicie a sessão do Claude Code para ele carregar.
 
+**Atenção ao instalar:** a skill `security-review` tem o mesmo nome do comando nativo
+`/security-review`. Instale-a como `security-checklist` (pasta e campo `name:` do `SKILL.md`)
+para não sobrepor o nativo. Foi assim que ela entrou em `~/.claude/skills/` em 2026-10-21,
+junto com os 9 agentes e as outras 9 skills.
+
 ## Atualizar a partir do original
 
 Compare com a tag nova do upstream e copie de novo só as mesmas pastas listadas acima.
